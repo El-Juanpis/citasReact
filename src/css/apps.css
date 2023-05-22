@@ -1,0 +1,8 @@
+.contenedorApp{
+  @apply container mx-auto mt-20
+}
+
+.contenedorFormPacientes{
+  @apply mt-12 md:flex
+  
+}

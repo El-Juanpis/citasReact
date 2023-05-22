@@ -1,0 +1,8 @@
+.tituloVeterinaria {
+@apply  font-black text-5xl text-center md:w-2/3 mx-auto
+}
+
+.spanVeterinaria{
+ @apply text-indigo-600
+}
+

@@ -1,0 +1,39 @@
+.ContenedortituloForm{
+  @apply  md:w-1/2  lg:w-2/5 mx-5 
+}
+
+.formTitulo{
+@apply font-black text-3xl text-center
+}
+
+.formParrafoListadoPacientes{
+  @apply text-lg mt-5 text-center mb-10
+}
+
+.FormspanAñadePacientes{
+  @apply text-indigo-600 font-bold 
+}
+
+.formRealDad{
+  @apply bg-white shadow-md rounded-lg py-10 px-5 mb-10
+}
+.boxform{
+  @apply mb-5
+}
+.formLabel{
+  @apply block text-gray-700 uppercase font-bold
+}
+
+.FormInput{
+  @apply border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md
+}
+
+.ButtonForm{
+  @apply bg-indigo-500  w-full p-3 hover:bg-indigo-700  cursor-pointer transition-all rounded-md
+  
+}
+
+/* errores */
+.FormError{
+  @apply bg-red-800 text-center text-white p-3 font-bold mb-3 rounded-md
+}  
